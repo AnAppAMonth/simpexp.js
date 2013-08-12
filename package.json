@@ -1,15 +1,14 @@
 {
-  "name": "randexp",
-  "description": "Create random strings that match a given regular expression.",
-  "keywords": ["regex", "regexp", "regular expression", "random"],
-  "version": "0.3.2",
-  "homepage": "http://fent.github.io/randexp.js/",
+  "name": "simpexp",
+  "description": "Generate the simplest string that matches a given regular expression.",
+  "keywords": ["regex", "regexp", "regular expression", "reverse"],
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fent/randexp.js.git"
+    "url": "git://github.com/halfninety/simpexp.js.git"
   },
-  "author": "Roly Fentanes (https://github.com/fent)",
-  "main": "./lib/randexp.js",
+  "author": "Feng Qiu <feng@ban90.com>",
+  "main": "./lib/simpexp.js",
   "scripts": {
     "test": "mocha -R spec test/*-test.js"
   },
@@ -24,6 +23,6 @@
   },
   "licenses": [ {
     "type": "MIT",
-    "url" : "http://github.com/fent/randexp.js/raw/master/LICENSE"
+    "url" : "http://github.com/halfninety/simpexp.js/raw/master/LICENSE"
   }]
 }
